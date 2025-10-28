@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MGNREGA Gujarat Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🌾 Our Voice, Our Rights</h1>
+    <h2>MGNREGA Performance - Gujarat</h2>
+
+    <label for="districtSelect">Select District:</label>
+    <select id="districtSelect"></select>
+
+    <div class="data-card">
+      <p>👩‍🌾 <b>Beneficiaries:</b> <span id="beneficiaries">N/A</span></p>
+      <p>📅 <b>Person-days:</b> <span id="persondays">N/A</span></p>
+      <p>💰 <b>Wages Paid:</b> ₹<span id="wages">N/A</span></p>
+      <p><i>Source: data.gov.in (live)</i></p>
+      <p id="locationText">📍 Detecting your location...</p>
+    </div>
+
+    <h3>💹 Top 5 Districts by Wages Paid</h3>
+    <canvas id="wagesChart" width="600" height="300"></canvas>
+  </div>
+
+  <!-- Your main JS file -->
+  <script src="script.js"></script>
+</body>
+</html>

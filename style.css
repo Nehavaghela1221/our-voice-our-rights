@@ -1,0 +1,37 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafae3;
+  text-align: center;
+  padding: 20px;
+  color: #222;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+h1 {
+  color: #333;
+}
+
+.data-card {
+  background: #e6f4ea;
+  padding: 20px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+label, select {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+canvas {
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}

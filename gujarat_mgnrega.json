@@ -1,0 +1,16 @@
+{
+  "records": [
+    {
+      "district_name": "Ahmedabad",
+      "households_completed": "15420",
+      "persondays_generated": "23200",
+      "total_wages_paid_in_lakhs": "6500000"
+    },
+    {
+      "district_name": "Surat",
+      "households_completed": "12100",
+      "persondays_generated": "19500",
+      "total_wages_paid_in_lakhs": "5800000"
+    }
+  ]
+}
